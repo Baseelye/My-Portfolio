@@ -3,19 +3,24 @@
     justify-content: flex-end;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue
-
+    color: black
 }
 
+.header h1 {
+    display: inline-block;
+}
+
+
 .header nav ul li {
-    display: flex;
+    display: inline-block;
+
     justify-content: space-around;
 }
 
 .header h1 {
     display: inline-block;
     justify-content: flex-start;
-    
+    background-color: rgb(135, 163, 222) ;
 }
 
 .header nav ul li {
@@ -24,6 +29,34 @@
     padding-bottom: 25px;
 }
 
-main h1 {
-    display: ;
+.photo1 {
+    height: 150px;
+    width: 1000px;
 }
+
+.photo3 {
+    height: 350px;
+    width: 600px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: block;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: blue;
+}
+
+.footer h4 {
+    display: inline-block;
+    margin: 50px;
+    color: blue navy;
+    
+}
+
